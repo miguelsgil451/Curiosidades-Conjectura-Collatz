@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gauss Table</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: #1b1b1b;
+        }
+
+        body {
+            width: 100vw;
+            min-height: 100vh;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2em;
+
+            background: linear-gradient(to right, #f2f6f9, #e9eef3);
+            overflow-x: hidden;
+        }
+
+        h1 {
+            font-size: 2rem;
+            color: #333;
+        }
+
+        a {
+            color: #357ab8;
+        }
+
+        a:hover {
+            color: #0482f0;
+        }
+
+        #apresentation {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            margin-bottom: 1em;
+        }
+
+        #controls {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.5em;
+            margin-bottom: 2em;
+        }
+
+        #controls label {
+            font-weight: bold;
+        }
+
+        #controls input {
+            padding: 0.5em 1em;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            width: 150px;
+            text-align: center;
+            font-size: 1rem;
+        }
+
+        #controls button {
+            padding: 0.6em 1.2em;
+            background-color: #4a90e2;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.3s;
+        }
+
+        #controls button:hover {
+            background-color: #357ab8;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            max-width: 800px;
+            background-color: white;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        thead {
+            background-color: #4a90e2;
+        }
+
+        th {
+            color: white;
+        }
+
+        th,
+        td {
+            padding: 0.75em 1em;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+
+        tbody tr:hover {
+            background-color: #f0f4f9;
+        }
+
+        .colapse-fermat {
+            background-color: #ffc9c9;
+        }
+
+        .fermat {
+            background-color: #ffe5e5;
+        }
+
+        .euler {
+            background-color: #e5f0ff;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="apresentation">
+        <h1>Gauss Table</h1>
+        <p>Made by <a href="https://mgil-portfolio.netlify.app/" target="_blank">Miguel Gil</a></p>
+        <p>See the <a
+                href="https://github.com/miguelsgil451/Curiosidades-Conjectura-Collatz/blob/main/LICENSE">Article</a>
+        </p>
+    </div>
+    <div id="controls">
+        <label for="input-size">Size</label>
+        <input type="number" id="input-size" value="10" min="0">
+        <button id="controls-submit-button">Gerar Tabela</button>
+    </div>
+
+    <table id="gauss-table">
+        <thead>
+            <tr>
+                <th>Index (n)</th>
+                <th>Odd (x)</th>
+                <th>3x + 1</th>
+                <th>Factorization</th>
+                <th>Type</th>
+            </tr>
+        </thead>
+        <tbody id="gt-body"></tbody>
+    </table>
+
+    <script>
+        function generateOdd(n) {
+            return 2 * n + 1;
+        }
+
+        function generate3xPlus1(n) {
+            return 3 * n + 1;
+        }
+
+        function generateFactorization(x) {
+            let expoent = 0;
+            let y = x;
+
+            while (y % 2 === 0) {
+                expoent++;
+                y /= 2;
+            }
+
+            return `2^${expoent} * ${y}`;
+        }
+
+        function getType(n) {
+            if (Number.isInteger(Math.log2(n))) return "Colapse-Fermat";
+            return n % 4 === 0 ? "Fermat" : "Euler";
+        }
+
+        function generateIndexData(n) {
+            const odd = generateOdd(n);
+            const txpo = generate3xPlus1(odd);
+
+            return {
+                index: n,
+                odd,
+                txpo,
+                factorization: generateFactorization(txpo),
+                type: getType(txpo)
+            };
+        }
+
+        const gtBody = document.getElementById("gt-body");
+
+        function generateTable(size) {
+            if (isNaN(size) || size < 0) {
+                alert("Insira um número válido.");
+                return;
+            }
+
+            gtBody.innerHTML = "";
+
+            for (let n = 0; n <= size; n++) {
+                const indexData = generateIndexData(n);
+
+                const tr = document.createElement("tr");
+
+                for (let p in indexData) {
+                    const td = document.createElement("td");
+                    td.textContent = indexData[p];
+
+                    switch (indexData.type) {
+                        case "Colapse-Fermat":
+                            td.classList.add("colapse-fermat");
+                            break;
+                        case "Fermat":
+                            td.classList.add("fermat");
+                            break;
+                        case "Euler":
+                            td.classList.add("euler");
+                            break;
+                    }
+
+                    tr.appendChild(td);
+                }
+
+                gtBody.appendChild(tr);
+            }
+        }
+
+        const controlsSubmitButton = document.getElementById("controls-submit-button");
+
+        generateTable(10);
+
+        controlsSubmitButton.addEventListener("click", () => {
+            const inputSizeElement = document.getElementById("input-size");
+
+            size = inputSizeElement.value;
+
+            generateTable(size);
+        });
+    </script>
+</body>
+
+</html>
