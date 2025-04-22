@@ -1,4 +1,4 @@
-# Curiosidade nº 4
+# Padrão nº 4
 
 ## Fluxo de Gauss: Há um padrão na distância entre os Colapsos de Fermat
 

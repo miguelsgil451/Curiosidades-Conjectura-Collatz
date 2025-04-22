@@ -1,4 +1,4 @@
-# Curiosidade nº 3
+# Padrão nº 3
 
 ## Fluxo de Gauss: Ora Fermat, Ora Euler
 

@@ -1,4 +1,4 @@
-# Curiosidade nº 5
+# Padrão nº 5
 
 ## Fluxo de Gauss: Há um padrão na distância entre os expoentes na Fatoração de Fermat
 

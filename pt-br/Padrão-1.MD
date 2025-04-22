@@ -1,4 +1,4 @@
-# Curiosidade nº 1
+# Padrão nº 1
 
 ## Todo Número de Fermat é divisível por 4
 

@@ -1,4 +1,4 @@
-# Curiosidade nº 7
+# Padrão nº 7
 
 ## Fluxo de Gauss: A Relação entre o Expoente da Potência de 2 e o Crescimento do Fator Ímpar
 

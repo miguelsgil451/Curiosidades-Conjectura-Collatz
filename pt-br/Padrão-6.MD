@@ -1,4 +1,4 @@
-# Curiosidade nº 6
+# Padrão nº 6
 
 ## Fluxo de Gauss: Relação com a Fatoração do Número de Euler e o Índice dos Ímpares
 

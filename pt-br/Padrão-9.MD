@@ -1,4 +1,4 @@
-# Curiosidade nº 9
+# Padrão nº 9
 
 ## Progressão no Número de Passos: A Relação Entre Dobras de um Número e a Quantidade de Subidas e Descidas
 

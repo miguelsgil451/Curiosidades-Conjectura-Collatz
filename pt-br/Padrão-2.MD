@@ -1,4 +1,4 @@
-# Curiosidade nº 2
+# Padrão nº 2
 
 ## Todos os Números de Euler são congruentes a 2 módulo 4
 

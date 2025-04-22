@@ -1,4 +1,4 @@
-# Curiosidade nº 8
+# Padrão nº 8
 
 ## Fluxo de Gauss: A Relação entre o Fator Ímpar do Número de Fermat e seu Índice como Termo da Sequência
 
