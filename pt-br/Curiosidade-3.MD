@@ -42,7 +42,7 @@ Sabemos que:
 Agora, consideremos a paridade de $x$:
 
 ### Caso 1: $x$ par
-Se $ x $ é par, então $x = 2k$ para algum $k \in \mathbb{N}$. Substituindo:
+Se $x$ é par, então $x = 2k$ para algum $k \in \mathbb{N}$. Substituindo:
 
 $$
 f(x) = 6(2k) + 4 = 12k + 4
