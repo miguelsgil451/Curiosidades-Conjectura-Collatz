@@ -69,38 +69,6 @@ $$
 f(x) = 2^x
 $$
 
-### Como prever a posição de qualquer potência?
-
-Sabemos que o **primeiro expoente de cada grupo** (o primeiro número que é fatorado como $2^x$) sempre aparece em um número conhecido como **Colapso de Fermat**. Depois disso, a periodicidade dos expoentes segue uma sequência previsível.
-
-#### A posição do primeiro expoente (Colapso de Fermat) pode ser modelada por:
-
-$$
-\boxed{
-CF(x) =
-\begin{cases}
-\displaystyle CF_{par}(x) = \frac{2^{2x+3} - 2}{3}, & \text{se } x \text{ é par} \\\\
-\displaystyle \frac{CF_{par}(x) + CF_{par}(x+1)}{2}, & \text{se } x \text{ é ímpar}
-\end{cases}
-}
-$$
-
-#### Para calcular a posição do enésimo expoente fixo dentro do grupo, usamos a fórmula:
-
-$$
-\boxed{f(x, n) = CF(x) + n \times 2^x}
-$$
-
-Onde:
-- $CF(x)$ é a posição do primeiro expoente no grupo $x$,
-- $n$ é o índice do expoente fixo desejado dentro do grupo,
-- $2^x$ é o espaçamento entre os expoentes no grupo.
-
----
-
-### Exemplo de Cálculo
-
-
 
 ### Conclusão
 

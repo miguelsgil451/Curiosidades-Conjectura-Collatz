@@ -69,58 +69,6 @@ $$
 f(x) = 2^x
 $$
 
-### How to predict the position of any power?
-
-We know that the **first exponent of each group** (the first number that factors as $2^x$) always appears in a number known as the **Fermat Collapse**. After that, the periodicity of the exponents follows a predictable sequence.
-
-#### The position of the first exponent (Fermat collapse) can be modeled by:
-
-$$
-\boxed{
-CF(x) =
-\begin{cases}
-\displaystyle CF_{par}(x) = \frac{2^{2x+3} - 2}{3}, & \text{se } x \text{ é par} \\\\
-\displaystyle \frac{CF_{par}(x) + CF_{par}(x+1)}{2}, & \text{se } x \text{ é ímpar}
-\end{cases}
-}
-$$
-
-#### To calculate the position of the nth fixed exponent within the group, we use the formula:
-
-$$
-\boxed{f(x, n) = CF(x) + n \times 2^x}
-$$
-
-Where:
-- $CF(x)$ is the position of the first exponent in the group $x$,,
-- $n$ is the index of the desired fixed exponent within the group,
-- $2^x$ is the spacing between the exponents in the group.
-
----
-
-### Calculation Example
-
-Let's calculate the position of some exponents of $2^3$ (factorization with fixed exponent $2^3$):
-
-- The first exponent of the group $2^3$ is in $CF(3)$.
-- Using Fermat's Collapse Formula:
-  $$
-  CF(3) = \frac{2^{2(3) + 3} - 2}{3} = \frac{2^9 - 2}{3} = \frac{512 - 2}{3} = \frac{510}{3} = 170
-  $$
-  Therefore, the first exponent of $2^3$ is at $170$.
-
-- O segundo expoente de $2^3$ estará em:
-  $$
-  f(3, 1) = 170 + 1 \times 2^3 = 170 + 8 = 178
-  $$
-
-- O terceiro expoente de $2^3$ estará em:
-  $$
-  f(3, 2) = 170 + 2 \times 2^3 = 170 + 16 = 186
-  $$
-
----
-
 ### Conclusion
 
 > The spacing pattern between fixed exponents in Fermat factorizations follows a predictable periodicity: the spacing between the exponents of $2^x$ is $2^x$.
