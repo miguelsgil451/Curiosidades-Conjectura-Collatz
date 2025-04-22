@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collatz Graphic</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        .data-container { 
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            gap: 0.5em;
+
+            font-size: large;
+            font-weight: 600;
+        }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+    <div id="apresentation">
+        <h1>Collatz Graphic</h1>
+        <p>Made by <a href="https://mgil-portfolio.netlify.app/" target="_blank">Miguel Gil</a></p>
+        <p>See the <a href="https://github.com/miguelsgil451/Curiosidades-Conjectura-Collatz">Article</a>
+        </p>
+    </div>
+    <div id="controls">
+        <label for="input-start">Start</label>
+        <input type="number" id="input-start" value="10" min="0">
+        <button id="controls-submit-button">Generate Graphic</button>
+    </div>
+    <canvas id="graphic"></canvas>
+    <div id="form-container">
+        <div class="data-container">
+            <label id="climb-data">climb:</label>
+            <p id="climb-data-value"></p>
+        </div>
+        <div class="data-container">
+            <label id="descent-data">descent:</label>
+            <p id="descent-data-value"></p>
+        </div>
+    </div>
+    <script>
+        const controlsSubmitButton = document.getElementById("controls-submit-button");
+
+        const climbData = document.getElementById("climb-data-value");
+        const descentData = document.getElementById("descent-data-value");
+
+        const canvas = document.getElementById("graphic");
+        const ctx = canvas.getContext("2d");
+
+        let collatzChart = null;
+
+        function generateCollatzSequence(n) {
+            const sequence = [n];
+            let actualValue = n;
+            let climb = 0;
+            let descent = 0;
+
+            while (actualValue !== 1) {
+                if (actualValue % 2 === 0) {
+                    actualValue /= 2;
+                    descent++;
+                } else {
+                    actualValue = actualValue * 3 + 1;
+                    climb++;
+                }
+
+                sequence.push(actualValue);
+            }
+
+            return [sequence, climb, descent];
+        }
+
+        function generateCollatzGraphicData() {
+            const startInput = document.getElementById("input-start");
+            const startValue = startInput.value;
+            const collatzSequence = generateCollatzSequence(startValue);
+            const sequence = collatzSequence[0];
+            const climb = collatzSequence[1];
+            const descent = collatzSequence[2];
+
+            const labels = sequence.map((_, i) => `Step ${i + 1}`);
+            const graphicData = {
+                labels,
+                datasets: [{
+                    label: "Collatz Conjecture Values",
+                    data: sequence,
+                    tension: 0.1,
+                    fillColor: false,
+                }]
+            }
+
+            climbData.textContent = climb;
+            descentData.textContent = descent;
+
+            return graphicData;
+        }
+
+        controlsSubmitButton.addEventListener("click", () => {
+        
+            if(collatzChart){
+                collatzChart.destroy();
+            }
+
+            const data = generateCollatzGraphicData();
+
+            collatzChart = new Chart(ctx, {
+                type: "line",
+                data,
+                options: {
+                    responsive: true,
+                    scales: {
+                        x: {
+                            beginAtZero: false
+                        },
+                        y: {
+                            beginAtZero: false
+                        }
+                    }
+                }
+            });
+        });
+
+    </script>
+</body>
+
+</html>
