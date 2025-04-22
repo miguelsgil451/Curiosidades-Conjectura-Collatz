@@ -6,14 +6,15 @@ By looking at the terms of the Collatz sequence, particularly those that result 
 
 ### Gaussian table
 
-| Index (n) | Odd (x) | 3x + 1 | Factorization     | Type   |
+| Índice (n) | Ímpar (x) | $3x + 1$ | Fatoração       | Tipo   |
 |------------|-----------|------------|-----------------|--------|
-| 1          | 3         | 10         | $2 \times 5$  | Euler  |
-| 2          | 5         | 16         | $2^4$         | Fermat |
-| 3          | 7         | 22         | $2 \times 11$ | Euler  |
-| 5          | 11        | 34         | $2 \times 17$ | Euler  |
-| 8          | 17        | 52         | $2^2 \times 13$ | Fermat |
-| 11         | 23        | 70         | $2 \times 35$ | Euler  |
+| 1          | 3         | 10         | $2 \times \mathbf{5}$  | Euler  |
+| 2          | **5**         | 16         | $2^4$         | Fermat |
+| 3          | 7         | 22         | $2 \times \mathbf{11}$ | Euler  |
+| 5          | **11**        | 34         | $2 \times \mathbf{17}$ | Euler  |
+| 7          | 15        | 52         | $2 × \mathbf{23}$ | Fermat |
+| 8          | **17**        | 52         | $2^2 \times 13$ | Fermat |
+| 11         | **23**        | 70         | $2 \times 35$ | Euler  |
 
 ### Observing the Differences between the Indices:
 
