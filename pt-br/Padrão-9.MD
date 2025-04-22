@@ -75,4 +75,4 @@ Enquanto a quantidade de **subidas permanece inalterada**.
 
 Esse comportamento revela um padrão estrutural recorrente na sequência de Collatz: ao dobrar um número, sua trajetória mantém a lógica da sequência anterior, com um único passo adicional de descida. Isso evidencia que a **estrutura da sequência é preservada nas duplicações**, reforçando a ideia de que a Collatz não é totalmente aleatória, mas sim **marcada por simetrias e progressões internas regulares**.
 
-> Esse padrão ainda merece ser mais aprofundado, não é certo que funciona pra todos os casos, mas acredito que as outras curiosidades podem ajudar a provar esse fenomêno.
+> Esse padrão ainda merece ser mais aprofundado, não é certo que funciona pra todos os casos, mas acredito que as outras padrões podem ajudar a provar esse fenomêno.

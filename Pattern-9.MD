@@ -74,4 +74,4 @@ While the number of **ups remains unchanged**.
 
 This behavior reveals a recurring structural pattern in the Collatz sequence: when doubling a number, its trajectory maintains the logic of the previous sequence, with a single additional down step. This highlights that the **structure of the sequence is preserved in the doublings**, reinforcing the idea that the Collatz sequence is not entirely random but rather **marked by symmetries and regular internal progressions**.
 
-> This pattern still deserves further exploration, it is not certain that it works for all cases, but I believe the other curiosities can help prove this phenomenon.
+> This pattern still deserves further exploration, it is not certain that it works for all cases, but I believe the other patterns can help prove this phenomenon.
