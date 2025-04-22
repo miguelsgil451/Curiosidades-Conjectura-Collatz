@@ -1,10 +1,12 @@
 # Padrões na Conjectura de Collatz
 
 **Autor**: <a href="https://mgil-portfolio.netlify.app/" target="_blank">Miguel Gil</a> <br>
-**Site 1**: <a href="http://127.0.0.1:5500/gauss_table.html" target="_blank">Gaussian table</a>
+**Site 1**: <a href="http://127.0.0.1:5500/gauss_table.html" target="_blank">Gaussian table</a> <br>
 **Site 2**: <a href="http://127.0.0.1:5500/collatz_graphic.html" target="_blank">Collatz Graphic</a>
 
-Este artigo apresenta um conjunto de padrões matemáticas relacionadas à Conjectura de Collatz, com ênfase na análise de padrões estruturais e comportamentais observados em subsequências específicas. Antes de prosseguir com as explorações empíricas, estabelecem-se abaixo as definições formais que servirão de base conceitual para os estudos apresentados.
+Este artigo explora alguns padrões interessantes ligados à famosa Conjectura de Collatz, com foco em entender como certos números se comportam e se organizam dentro dessa sequência. A ideia é observar padrões estruturais e comportamentais que aparecem quando analisamos partes específicas da sequência.
+
+Antes de mergulhar nas análises e experimentos, vamos definir alguns conceitos importantes que vão servir como base para os estudos apresentados ao longo do texto.
 
 ---
 
@@ -18,19 +20,22 @@ Este artigo apresenta um conjunto de padrões matemáticas relacionadas à Conje
 
 ## Definições Propostas
 
-As definições a seguir categorizam determinados subconjuntos de números, com base em propriedades específicas observadas no contexto da Conjectura de Collatz(Os nomes foram dados por convenção):
+As definições abaixo classificam certos tipos de números que aparecem quando estudamos a Conjectura de Collatz. Os nomes são apenas convenções criadas para facilitar a análise dos padrões.
 
-- **Número de Fermat (F)**: Qualquer número par $n$ tal que $n / 2$ também é par. Formalmente, $n = 2^k \times m$, com $k \geq 2$ e $m$ ímpar.
-  
-- **Número de Colapso de Fermat (CF)**: Caso particular de um Número de Fermat onde $n$ é uma potência de dois, ou seja, $n = 2^k$.
+- **Número de Fermat (F)**: É um número **par** que continua **par mesmo quando dividido por 2 uma vez**. Em outras palavras, ele pode ser dividido por 2 **duas ou mais vezes** antes de virar ímpar. Exemplo: 16 → 8 → 4 → 2 → 1 (até chegar no ímpar 1, ele foi dividido várias vezes por 2).
 
-- **Número de Euler (E)**: Todo número par $n$ tal que $n / 2$ resulta em um número ímpar.
+- **Número de Colapso de Fermat (CF)**: É um caso especial de Número de Fermat. Aqui, o número é uma **potência exata de 2** — tipo 2, 4, 8, 16, 32, etc. Ou seja, você pode escrever ele como $2^k$.
 
-- **Número de Gauss-Fermat (GF)**: Todo número ímpar $x$ tal que $3x + 1$ é um Número de Fermat.
+- **Número de Euler (E)**: É um número **par**, mas que **vira ímpar logo na primeira divisão por 2**. Por exemplo, 6 → 3 (3 é ímpar). Isso acontece porque o número só tem uma divisão por 2 possível antes de sair da paridade.
 
-- **Número de Gauss-Euler (GE)**: Todo número ímpar $x$ tal que $3x + 1$ é um Número de Euler.
+- **Número de Gauss-Fermat (GF)**: É um número **ímpar** que, quando colocado na fórmula $3x + 1$, resulta num **Número de Fermat**.
 
-- **Fluxo de Gauss (FG)**: Função que aplica a transformação $f(x) = 3(2x + 1) + 1 = 6x + 4$, correspondendo à aplicação do mapeamento da Conjectura de Collatz diretamente sobre números ímpares gerados pela função $x = 2n + 1$.
+- **Número de Gauss-Euler (GE)**: É um número **ímpar** que, ao aplicar $3x + 1$, vira um **Número de Euler**.
+
+- **Fluxo de Gauss (FG)**: É uma função que pega qualquer número natural $n$, transforma em ímpar com $x = 2n + 1$, e depois aplica a transformação da Conjectura de Collatz: $3x + 1$. Juntando tudo dá:  
+  $$
+  FG(n) = 6n + 4
+  $$  
 
 ---
 
