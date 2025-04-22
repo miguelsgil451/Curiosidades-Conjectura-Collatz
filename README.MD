@@ -41,7 +41,7 @@ $$
 
 ## Gauss Table (GT)
 
-The Gauss Table organizes the elements of the Gauss Flow in a systematic way, associating the entry (index) with its respective odd number, the value obtained by the transformation $3x + 1$, the factorization of this value (if it is even), and its classification according to the previous categories.
+The Gauss Table organizes the elements of the Gauss Flow in a systematic way, associating the entry (index) with its respective odd number, the value obtained by the transformation $3x + 1$, the factorization of this value (if it is even), and its classification according to the previous categories. It will be used as a basis for understanding the patterns in the Conjecture.
 
 
 | **Column** | **Description** |

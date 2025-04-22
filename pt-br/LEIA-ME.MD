@@ -41,7 +41,7 @@ As definições abaixo classificam certos tipos de números que aparecem quando 
 
 ## Tabela de Gauss (TG)
 
-A Tabela de Gauss organiza os elementos do Fluxo de Gauss de forma sistemática, associando a entrada (índice) ao seu respectivo número ímpar, o valor obtido pela transformação $3x + 1$, a fatoração desse valor (caso seja par), e sua classificação conforme as categorias anteriores.
+A Tabela de Gauss organiza os elementos do Fluxo de Gauss de forma sistemática, associando a entrada (índice) ao seu respectivo número ímpar, o valor obtido pela transformação $3x + 1$, a fatoração desse valor (caso seja par), e sua classificação conforme as categorias anteriores. Ela será usada como base para entender os padrões na Conjectura.
 
 | **Coluna**        | **Descrição**                                                                 |
 |-------------------|--------------------------------------------------------------------------------|
