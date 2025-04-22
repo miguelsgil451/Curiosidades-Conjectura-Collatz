@@ -50,3 +50,11 @@ A Tabela de Gauss organiza os elementos do Fluxo de Gauss de forma sistemática,
 | **$3x + 1$**       | Resultado da transformação aplicada ao número ímpar, associada à dinâmica da Conjectura de Collatz. |
 | **Fatoração**     | Decomposição do número par resultante da operação $3x + 1$, destacando potências de dois. |
 | **Tipo**          | Classificação segundo as definições: <br> 🔹 **F** para Números de Fermat <br> 🔸 **E** para Números de Euler |
+
+---
+
+## Contribuição
+
+Este artigo está aberto a sugestões, correções e melhorias. Se você encontrou algo que possa ser aprimorado, teve uma ideia nova relacionada aos padrões da Conjectura de Collatz, ou apenas quer conversar sobre o tema, sinta-se à vontade para contribuir!
+
+Você pode abrir uma issue, enviar um pull request, ou entrar em contato diretamente. Toda ajuda é bem-vinda para tornar este estudo mais completo e acessível.

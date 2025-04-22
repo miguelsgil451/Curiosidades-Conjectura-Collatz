@@ -51,3 +51,11 @@ The Gauss Table organizes the elements of the Gauss Flow in a systematic way, as
 | **$3x + 1$** | Result of the transformation applied to the odd number, associated with the dynamics of the Collatz Conjecture. |
 | **Factorization** | Decomposition of the even number resulting from the operation $3x + 1$, highlighting powers of two. |
 | **Type** | Classification according to the definitions: <br> 🔹 **F** for Fermat Numbers <br> 🔸 **E** for Euler Numbers |
+
+---
+
+## Contribution
+
+This article is open to suggestions, corrections, and improvements. If you found something that could be improved, had a new idea related to the Collatz Conjecture patterns, or just want to talk about the topic, feel free to contribute!
+
+You can open an issue, submit a pull request, or contact us directly. Any help is welcome to make this study more complete and accessible.
