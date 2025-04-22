@@ -1,8 +1,8 @@
 # Padrões na Conjectura de Collatz
 
 **Autor**: <a href="https://mgil-portfolio.netlify.app/" target="_blank">Miguel Gil</a> <br>
-**Site 1**: <a href="http://127.0.0.1:5500/gauss_table.html" target="_blank">Gaussian table</a> <br>
-**Site 2**: <a href="http://127.0.0.1:5500/collatz_graphic.html" target="_blank">Collatz Graphic</a>
+**Site 1**: <a href="https://patterns-collatz-conjecture.netlify.app/gauss_table.html" target="_blank">Gaussian table</a> <br>
+**Site 2**: <a href="https://patterns-collatz-conjecture.netlify.app/collatz_graphic.html" target="_blank">Collatz Graphic</a>
 
 Este artigo explora alguns padrões interessantes ligados à famosa Conjectura de Collatz, com foco em entender como certos números se comportam e se organizam dentro dessa sequência. A ideia é observar padrões estruturais e comportamentais que aparecem quando analisamos partes específicas da sequência.
 

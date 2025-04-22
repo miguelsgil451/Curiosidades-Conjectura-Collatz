@@ -1,8 +1,8 @@
 # Patterns in the Collatz Conjecture
 
 **Autor**: <a href="https://mgil-portfolio.netlify.app/" target="_blank">Miguel Gil</a> <br>
-**Site 1**: <a href="http://127.0.0.1:5500/gauss_table.html" target="_blank">Gaussian table</a>
-**Site 2**: <a href="http://127.0.0.1:5500/collatz_graphic.html" target="_blank">Collatz Graphic</a>
+**Site 1**: <a href="https://patterns-collatz-conjecture.netlify.app/gauss_table.html" target="_blank">Gaussian table</a>
+**Site 2**: <a href="https://patterns-collatz-conjecture.netlify.app/collatz_graphic.html" target="_blank">Collatz Graphic</a>
 
 This article explores some interesting patterns linked to the famous Collatz Conjecture, focusing on understanding how certain numbers behave and organize themselves within this sequence. The idea is to observe structural and behavioral patterns that appear when we analyze specific parts of the sequence.
 
