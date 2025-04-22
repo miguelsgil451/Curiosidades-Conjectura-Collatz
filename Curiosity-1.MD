@@ -10,7 +10,7 @@ $$
 n \equiv 0 \pmod{4} \quad \Rightarrow \quad 2 \mid \left( \frac{n}{2} \right)
 $$
 
-Therefore, every Fermat Number is **divisible by 4**, that is, there exists some \( x \in \mathbb{N} \) such that:
+Therefore, every Fermat Number is **divisible by 4**, that is, there exists some $x \in \mathbb{N}$ such that:
 
 $$
 n = 4x
