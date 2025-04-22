@@ -1,9 +1,9 @@
-# Curiosities in the Collatz Conjecture
+# Patterns in the Collatz Conjecture
 
 **Autor**: <a href="https://mgil-portfolio.netlify.app/" target="_blank">Miguel Gil</a> <br>
 **Site**: <a href="http://127.0.0.1:5500/gauss_table.html" target="_blank">Gaussian table</a>
 
-This article presents a set of mathematical curiosities related to the Collatz Conjecture, with emphasis on the analysis of structural and behavioral patterns observed in specific subsequences. Before proceeding with the empirical explorations, the formal definitions that will serve as a conceptual basis for the studies presented are established below.
+This article presents a set of mathematical patterns related to the Collatz Conjecture, with emphasis on the analysis of structural and behavioral patterns observed in specific subsequences. Before proceeding with the empirical explorations, the formal definitions that will serve as a conceptual basis for the studies presented are established below.
 
 ---
 
