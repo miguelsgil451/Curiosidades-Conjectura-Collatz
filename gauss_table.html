@@ -5,86 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gauss Table</title>
+    <link rel="stylesheet" href="index.css">
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            color: #1b1b1b;
-        }
-
-        body {
-            width: 100vw;
-            min-height: 100vh;
-
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 2em;
-
-            background: linear-gradient(to right, #f2f6f9, #e9eef3);
-            overflow-x: hidden;
-        }
-
-        h1 {
-            font-size: 2rem;
-            color: #333;
-        }
-
-        a {
-            color: #357ab8;
-        }
-
-        a:hover {
-            color: #0482f0;
-        }
-
-        #apresentation {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-
-            margin-bottom: 1em;
-        }
-
-        #controls {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 0.5em;
-            margin-bottom: 2em;
-        }
-
-        #controls label {
-            font-weight: bold;
-        }
-
-        #controls input {
-            padding: 0.5em 1em;
-            border: 1px solid #ccc;
-            border-radius: 8px;
-            width: 150px;
-            text-align: center;
-            font-size: 1rem;
-        }
-
-        #controls button {
-            padding: 0.6em 1.2em;
-            background-color: #4a90e2;
-            color: white;
-            border: none;
-            border-radius: 8px;
-            cursor: pointer;
-            font-weight: bold;
-            transition: background-color 0.3s;
-        }
-
-        #controls button:hover {
-            background-color: #357ab8;
-        }
-
         table {
             border-collapse: collapse;
             width: 100%;
