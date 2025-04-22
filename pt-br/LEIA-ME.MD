@@ -1,7 +1,8 @@
 # Padrões na Conjectura de Collatz
 
 **Autor**: <a href="https://mgil-portfolio.netlify.app/" target="_blank">Miguel Gil</a> <br>
-**Site**: <a href="http://127.0.0.1:5500/gauss_table.html" target="_blank">Tabela de Gauss</a>
+**Site 1**: <a href="http://127.0.0.1:5500/gauss_table.html" target="_blank">Gaussian table</a>
+**Site 2**: <a href="http://127.0.0.1:5500/collatz_graphic.html" target="_blank">Collatz Graphic</a>
 
 Este artigo apresenta um conjunto de padrões matemáticas relacionadas à Conjectura de Collatz, com ênfase na análise de padrões estruturais e comportamentais observados em subsequências específicas. Antes de prosseguir com as explorações empíricas, estabelecem-se abaixo as definições formais que servirão de base conceitual para os estudos apresentados.
 
