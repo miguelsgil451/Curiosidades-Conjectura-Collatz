@@ -1,4 +1,4 @@
-# Curiosity nº 5
+# Pattern nº 5
 
 ## Gaussian Flux: There is a pattern in the distance between exponents in Fermat Factorization
 

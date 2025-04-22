@@ -1,5 +1,4 @@
-
-# Curiosity #9
+# Pattern #9
 
 ## Progression in the Number of Steps: The Relationship Between Doublings of a Number and the Number of Up and Down Operations
 

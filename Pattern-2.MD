@@ -1,4 +1,4 @@
-# Curiosity nº 2
+# Pattern nº 2
 
 ## All Euler numbers are congruent to 2 modulo 4
 

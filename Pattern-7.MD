@@ -1,4 +1,4 @@
-# Curiosity nº 7
+# Pattern nº 7
 
 ## Gaussian Flux: The Relationship Between the Power of 2 Exponent and the Odd Factor Growth
 

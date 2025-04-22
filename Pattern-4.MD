@@ -1,4 +1,4 @@
-# Curiosity nº 4
+# Pattern nº 4
 
 ## Gaussian Flux: There is a pattern in the distance between Fermat Collapses
 

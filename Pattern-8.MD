@@ -1,4 +1,4 @@
-# Curiosity nº 8
+# Pattern nº 8
 
 ## Gaussian Flux: The Relationship between the Odd Factor of the Fermat Number and its Index as a Term of the Sequence
 

@@ -1,4 +1,4 @@
-# Curiosity nº 1
+# Pattern nº 1
 
 ## Every Fermat Number is divisible by 4
 

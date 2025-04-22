@@ -1,4 +1,4 @@
-# Curiosity nº 6
+# Pattern nº 6
 
 ## Gaussian Flux: Relation to Euler Number Factorization and Odd Index
 

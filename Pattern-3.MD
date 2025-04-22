@@ -1,4 +1,4 @@
-# Curiosity nº 3
+# Pattern nº 3
 
 ## Gaussian flux: sometimes Fermat, sometimes Euler
 
