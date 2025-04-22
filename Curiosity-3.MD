@@ -41,7 +41,7 @@ We know that:
 
 Now, let us consider the parity of $x$:
 
-### Caso 1: $x$ pair
+### Case 1: $x$ pair
 If $x$ is even, then $x = 2k$ for some $k \in \mathbb{N}$. Substituting:
 
 $$
@@ -56,7 +56,7 @@ That is, $f(x)$ is divisible by 4 → it is a **Fermat Number**.
 
 ---
 
-### Caso 2: $x$ odd
+### Case 2: $x$ odd
 If $x$ is odd, then $x = 2k + 1$. Substituting:
 
 $$
