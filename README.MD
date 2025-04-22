@@ -20,7 +20,7 @@ Before diving into the analysis and experiments, let's define some important con
 
 ## Proposed Definitions
 
-As definições abaixo classificam certos tipos de números que aparecem quando estudamos a Conjectura de Collatz. Os nomes são apenas convenções criadas para facilitar a análise dos padrões.
+As definições abaixo classificam certos tipos de números que aparecem quando estudamos a Conjectura de Collatz. Os nomes são apenas **convenções** criadas para facilitar a análise dos padrões.
 
 - **Fermat's Number (F)**: This is an **even** number that remains **even even when divided by 2 once**. In other words, it can be divided by 2 **two or more times** before becoming odd. Example: 16 → 8 → 4 → 2 → 1 (until it reaches the odd 1, it has been divided by 2 several times).
 
