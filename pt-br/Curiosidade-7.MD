@@ -8,7 +8,7 @@ $
 3x + 1 = 2^e \times \text{ímpar}
 $
 
-— percebe-se que os **fatores ímpares** associados seguem uma **progressão aritmética crescente**, com uma diferença constante que depende diretamente do expoente $e$ da potência de 2.
+percebe-se que os **fatores ímpares** associados seguem uma **progressão aritmética crescente**, com uma diferença constante que depende diretamente do expoente $e$ da potência de 2.
 
 ---
 
