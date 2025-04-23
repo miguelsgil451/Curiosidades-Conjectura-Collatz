@@ -1,4 +1,4 @@
-# Pattern #9
+# Pattern nº 9
 
 ## Progression in the Number of Steps: The Relationship Between Doublings of a Number and the Number of Up and Down Operations
 
@@ -24,9 +24,7 @@ When we select any number and analyze its multiples obtained by **successive dou
 
 In this case, the numbers analyzed were obtained by:
 
-$
-\text{base number} \times 2^k \quad \text{with } k = 0, 1, 2, \dots
-$
+$\text{base number} \times 2^k \quad \text{with } k = 0, 1, 2, \dots$
 
 ---
 
@@ -62,9 +60,7 @@ And also:
 
 The number of **downs** follows a:
 
-$
-\textbf{Arithmetic Progression with a difference of 1}
-$
+$\textbf{Arithmetic Progression with a difference of 1}$
 
 While the number of **ups remains unchanged**.
 
