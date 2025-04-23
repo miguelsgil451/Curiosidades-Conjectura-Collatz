@@ -33,9 +33,7 @@ we notice an **arithmetic growth pattern in the difference $n - m$**.
 
 We identify when an **odd factor** of a Fermat number also appears earlier in the sequence as the value $x$. We then calculate:
 
-$
-\Delta = \text{Fermat Index} - \text{Odd factor index}
-$
+$\Delta = \text{Fermat Index} - \text{Odd factor index}$
 
 | Odd Factor | Factor Index | Fermat Index | Difference ($\Delta$) |
 |-------------|------------------|------------------|---------------------------|

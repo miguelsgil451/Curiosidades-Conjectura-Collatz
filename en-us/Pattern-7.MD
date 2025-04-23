@@ -76,9 +76,7 @@ $k_{i+1} = k_i + 6$
 
 I.e:
 
-$
-\text{For a fixed exponent } and, \text{ the associated odd factors increase by 6.}
-$
+$\text{For a fixed exponent } and, \text{ the associated odd factors increase by 6.}$
 
 ---
 
