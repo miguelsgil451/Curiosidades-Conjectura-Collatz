@@ -23,17 +23,13 @@ Note that the distances between the indices form **odd** powers of 2 and are gro
 
 Therefore, the next Fermat Collapse will be given by:
 
-$
-2^9 + 170 \implies 512 + 170 = 682
-$
+$2^9 + 170 \implies 512 + 170 = 682$
 
 ### Formula for the nth Fermat Collapse
 
 The position (index) of the nth Fermat Collapse can be determined by the formula:
 
-$
-f(x) = \sum_{n=0}^{x} 2^{2n+1} \implies f(x) = \frac{2^{2x+3} - 2}{3}
-$
+$f(x) = \sum_{n=0}^{x} 2^{2n+1} \implies f(x) = \frac{2^{2x+3} - 2}{3}$
 
 ### Examples of application of the formula:
 
