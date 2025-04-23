@@ -4,9 +4,7 @@
 
 In the analysis of the Collatz sequence, a pattern emerges when observing **Fermat-type numbers**, that is, terms that are expressed as:
 
-$
-3x + 1 = 2^k \times \text{ímpar}
-$
+$3x + 1 = 2^k \times \text{ímpar}$
 
 In these cases, the odd factor does not arise arbitrarily. When we compare:
 
@@ -54,9 +52,7 @@ $
 
 A diferença entre os índices forma uma:
 
-$
-\textbf{Arithmetic Progression with ratio 1}
-$
+$\textbf{Arithmetic Progression with ratio 1}$
 
 This pattern reveals that:
 

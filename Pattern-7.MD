@@ -4,9 +4,7 @@
 
 When analyzing the terms of the Collatz sequence that result in factorizations of the **Fermat** type — that is, of the form:
 
-$
-3x + 1 = 2^e \times \text{ímpar}
-$
+$3x + 1 = 2^e \times \text{ímpar}$
 
 It can be seen that the associated **odd factors** follow an **increasing arithmetic progression**, with a constant difference that depends directly on the exponent $e$ of the power of 2.
 
@@ -70,15 +68,11 @@ It can be seen that the associated **odd factors** follow an **increasing arithm
 
 Given a term of the Collatz sequence of the form:
 
-$
-3x + 1 = 2^e \times k
-$
+$3x + 1 = 2^e \times k$
 
 where $k$ is an odd number, then the factors $k$ follow an **arithmetic progression** with constant ratio $r = 6$:
 
-$
-k_{i+1} = k_i + 6
-$
+$k_{i+1} = k_i + 6$
 
 I.e:
 
