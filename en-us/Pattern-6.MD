@@ -31,7 +31,7 @@ $$
 \Delta n = n_{i+1} - n_i = i \quad \text{where } i \text{ is the index of the sequence}
 $$
 
-### Formalização
+### Formalization
 
 The arithmetic progression that describes the differences between the indices of odd numbers that result in **Euler** or **Fermat** type factorizations can be modeled as:
 
