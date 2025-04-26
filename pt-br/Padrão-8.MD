@@ -4,9 +4,7 @@
 
 Na análise da sequência de Collatz, um padrão fascinante emerge ao observar **números do tipo Fermat**, ou seja, termos que se expressam como:
 
-$
-3x + 1 = 2^k \times \text{ímpar}
-$
+$3x + 1 = 2^k \times \text{ímpar}$
 
 Nesses casos, o fator ímpar não surge de forma arbitrária. Quando comparamos:
 
@@ -35,9 +33,7 @@ percebemos um **padrão de crescimento aritmético na diferença $n - m$**.
 
 Identificamos quando um **fator ímpar** de um número de Fermat também aparece anteriormente na sequência como valor $x$. Calculamos então:
 
-$
-\Delta = \text{Índice do Fermat} - \text{Índice do fator ímpar}
-$
+$\Delta = \text{Índice do Fermat} - \text{Índice do fator ímpar}$
 
 | Fator Ímpar | Índice do fator | Índice do Fermat | Diferença ($\Delta$) |
 |-------------|------------------|------------------|---------------------------|
@@ -54,9 +50,7 @@ $
 
 A diferença entre os índices forma uma:
 
-$
-\textbf{Progressão Aritmética com razão 1}
-$
+$\textbf{Progressão Aritmética com razão 1}$
 
 Esse padrão revela que:
 
