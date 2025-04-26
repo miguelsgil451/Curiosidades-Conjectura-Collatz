@@ -4,9 +4,7 @@
 
 Ao analisar os termos da sequência de Collatz que resultam em fatorações do tipo **Fermat** — ou seja, da forma:
 
-$
-3x + 1 = 2^e \times \text{ímpar}
-$
+$3x + 1 = 2^e \times \text{ímpar}$
 
 percebe-se que os **fatores ímpares** associados seguem uma **progressão aritmética crescente**, com uma diferença constante que depende diretamente do expoente $e$ da potência de 2.
 
@@ -70,21 +68,15 @@ percebe-se que os **fatores ímpares** associados seguem uma **progressão aritm
 
 Dado um termo da sequência de Collatz da forma:
 
-$
-3x + 1 = 2^e \times k
-$
+$3x + 1 = 2^e \times k$
 
 onde $k$ é um número ímpar, então os fatores $k$ seguem uma **progressão aritmética** com razão constante $r = 6$:
 
-$
-k_{i+1} = k_i + 6
-$
+$k_{i+1} = k_i + 6$
 
 Ou seja:
 
-$
-\text{Para um expoente fixo } e, \text{ os fatores ímpares associados aumentam de 6 em 6.}
-$
+$\text{Para um expoente fixo } e, \text{ os fatores ímpares associados aumentam de 6 em 6.}$
 
 ---
 
